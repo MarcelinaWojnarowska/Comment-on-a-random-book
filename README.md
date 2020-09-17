@@ -1,23 +1,22 @@
-##Comment-on-a-random-book
-####The app allows you to:
+## Comment-on-a-random-book
+The app allows you to:
 - add a comment to a randomly selected book titles, 
 - view all titles, 
 - view all comments,
 - view comments added to the selected book
 
 
-##### Technologies used in this project:
+###### Technologies used in this project:
 - Python, Flask
 - SQL,
 - HTML, CSS, 
 - Bootstrap
 
 
-#####System requirements:
+###### System requirements:
 - Installed Python 3.x
 
-
-#####How to Setup:
+###### How to Setup:
 
 Step 1: git clone repo:<br>
 Step 2: cd to the cloned repo <br>
@@ -29,7 +28,7 @@ Step 4: activate the virtual environment: <br>
 Step 5: install Flask: _(env)pip install flask_<br>
 Step 6: install Requests: _(env)pip install requests_
 
-#####How to Run App:
+###### How to Run App:
 
 Step 1: 
 - on Windows: _(env) set FLASK_APP=run.py_
