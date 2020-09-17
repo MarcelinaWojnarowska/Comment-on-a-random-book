@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block content%}
+<h1>Books by S. King</h1>
+<img src="static/stephenking.jpg" alt="books by S.King" width="500" height="250">
+<p id="title"><b>The randomly selected title for you:</b></p>
+<h2>"{{title}}"</h2>
+<p>If you have read this book, pleas give your opinion on it.</p>
+<a class="btn btn-warning" href="{{url_for('add_comment', id=id, title=title)}}" role="button">Add a comment</a>
+
+{% endblock %}
