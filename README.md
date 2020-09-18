@@ -1,10 +1,12 @@
 ## Comment-on-a-random-book
-The app allows you to:
+In this project I didn't focus much on visual aspects.
+I wanted to make it functional, with backend database storing some information.
+
+###### The app allows you to:
 - add a comment to a randomly selected book titles, 
 - view all titles, 
 - view all comments,
 - view comments added to the selected book
-
 
 ###### Technologies used in this project:
 - Python, Flask
@@ -38,4 +40,6 @@ Step 2: _(env) flask run_ <br>
 * Serving Flask app "run.py"
 * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
-###### Website address: https://comment-on-a-book.herokuapp.com/
+###### Website address: 
+
+https://comment-on-a-book.herokuapp.com/
