@@ -12,7 +12,7 @@ class BookService:
         for item in google_books['items']:
             title = item['volumeInfo']['title']
             author = ", ".join(item['volumeInfo']['authors'])
-            c.execute("INSERT INTO books (title, author)"
+            c.execute("REPLACE INTO books (title, author)"
                       "VALUES(?, ?)", (title, author))
 
         connection.commit()

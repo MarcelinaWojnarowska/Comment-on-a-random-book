@@ -10,7 +10,7 @@ def create_schema():
 
     # create books table
     command1 = """CREATE TABLE IF NOT EXISTS
-    books(id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT, author TEXT)"""
+    books(id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT UNIQUE, author TEXT)"""
     c.execute(command1)
 
     # create comments table
